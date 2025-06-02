@@ -8,6 +8,6 @@ public class GreetingController {
 
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello from GitHub Actions!";
+        return "Hello from GitHub Actions!"
     }
 }
